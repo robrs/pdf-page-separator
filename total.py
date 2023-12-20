@@ -43,7 +43,7 @@ def pdf_get_name(page, pdf_file):
 
     name2 = ''.join(name2).strip()
     name2 = name2.replace(' ', '_')
-    print(name2)
+    #print(name2)
     name1 = name_arr_1[0]
     #name2 = name_arr_2[0]
     return name1+"_"+name2

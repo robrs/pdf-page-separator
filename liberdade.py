@@ -36,7 +36,7 @@ def pdf_get_name(page, pdf_file):
     # Caso o caractere não esteja em '0123456789', ele é retonado dentro de uma lista.
     #name = list(filter(lambda c: c in '0123456789(', name))
     name = name.replace(' ','_')
-    print(name)
+    #print(name)
     # O método join() une os caracteres em uma única string novamente. Em seguida, remove os espaços em excesso.
     #name = ''.join(name).strip()
     #name_arr = name.split('(')
